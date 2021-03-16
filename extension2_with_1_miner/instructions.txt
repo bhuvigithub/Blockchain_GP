@@ -1,0 +1,20 @@
+the Crypto library is installed with the command:
+
+pip3 install pycryptodome
+
+If it does NOT work
+
+uninstall via pip3 uninstall pycryptodome
+
+THEN 
+
+navigate into the folder where all python scripts are and use the command:
+
+pip3 install pycryptodome -t .
+
+(that installs the package within the folder)
+
+1 Miner and 5 Workers.
+Using 'python3 Starter.py 1 5' to start.
+
+
