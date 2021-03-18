@@ -136,7 +136,7 @@ class Worker:
                 del(self.compareList[0])
             max_block = (max(max_list, key = max_list.count))
             print("Correct Block" + str(max_block))
-            self.blockchain.add_block(max_block['timestamp'], max_block['transaction'], max_block['mac']) 
+            self.blockchain.add_block(max_block['timestamp'], max_block['transaction'], max_block["mac"]) 
         
     def listen(self):
         print("Start sub-thread for listening. (Worker)")
