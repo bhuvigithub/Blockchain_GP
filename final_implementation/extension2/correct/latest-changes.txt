@@ -1,0 +1,10 @@
+Worker.py:
+Modification of constructor, takes total_number_of_hosts now
+Generates transactions and adds them to the block
+
+Miner.py:
+Changed the processing of arguments so that it can take the IPs of workers AND miners
+
+
+Starter.py:
+Changed how the Miner.py and Worker.py invoke their Python script
