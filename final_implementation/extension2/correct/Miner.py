@@ -20,9 +20,11 @@ import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-key_path='/home/mininet/Desktop/file/final_implementation/encryption/host'
-cert_path='/home/mininet/Desktop/file/final_implementation/encryption/host'
-
+#key_path='/home/mininet/Blockchain_GP/final_implementation/encryption/host'
+#cert_path='/home/mininet/Blockchain_GP/final_implementation/encryption/host'
+#Dynamic encryption pickup
+key_path='../../encryption/host'
+cert_path='../../encryption/host'
 class Miner:
     def __init__(self, host, port, debug, minersSize, minerIPs, worker_nodes ):
         # host: the host ip of Miner
