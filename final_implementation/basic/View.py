@@ -8,6 +8,9 @@ Created on Thu Mar 11 13:38:44 2021
 
 import requests
 import json
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 "GET"
 while True:
     host = input()
